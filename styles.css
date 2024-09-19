@@ -1,35 +1,46 @@
-/* Outdated CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: ;
+    background-color: #1E1E1E;
+    color: white;
+    margin: 0%;
 }
-
-h1 {
-    margin: 0;
+/* */
+.header {
+    background-color: #FBC1D4;
+    text-align: center;
+    padding: 20px;
 }
-
-ul {
-    margin: 0;
-    padding: 0;
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
 }
-
-li {
-    margin: 0;
-    padding: 0;
+.header p {
+    font-size: 1.2rem;
 }
-
-p {
-    margin: 0;
-    padding: 0;
+/* */
+.navbar {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
 }
-
-img {
-    width: 100%;
-    height: auto;
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
+.navbar a{
+    text-align: none;
+    color: white;
+    font-size: 1.1rem;
+}
+/* */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(300px, 1fr));
 }
